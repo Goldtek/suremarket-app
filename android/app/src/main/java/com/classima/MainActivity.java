@@ -1,4 +1,4 @@
-package com.firstproject;
+package com.classima;
 
 import android.os.Build;
 import android.os.Bundle;
