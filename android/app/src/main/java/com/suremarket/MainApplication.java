@@ -1,4 +1,4 @@
-package com.classima;
+package com.suremarket;
 
 import android.app.Application;
 import android.content.Context;

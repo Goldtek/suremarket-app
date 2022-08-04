@@ -74,7 +74,7 @@ export default function App({ route, navigation }) {
   return (
     <View style={{ flex: 1}}>
     <Paystack  
-      paystackKey="pk_live_6b8f74dd79623ef2626290b21c32ebc82268dede"
+      paystackKey="pk_live_ad1d0456e363bf712ac0e4d7507efb03957d8bd5"
       amount={`${route.params.price}`}
       billingEmail={user.email}
       activityIndicatorColor="green"

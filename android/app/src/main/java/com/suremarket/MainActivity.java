@@ -1,4 +1,4 @@
-package com.classima;
+package com.suremarket;
 
 import android.os.Build;
 import android.os.Bundle;

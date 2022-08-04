@@ -89,7 +89,7 @@ const MembershipScreen = ({ navigation }) => {
          </View>
 
           <TouchableOpacity style={styles.buttonContainer} activeOpacity={0.8} onPress={() => navigation.navigate('My Membership')}>
-            <Text style={{ color: '#fff', fontWeight: '600'}}>Renew Subscribe</Text>
+            <Text style={{ color: '#fff', fontWeight: '600'}}>Renew Subscription</Text>
          </TouchableOpacity>
        </>
       )
