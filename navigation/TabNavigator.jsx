@@ -11,7 +11,6 @@ import FeaturedListingScreen from "../screens/FeaturedListingScreen";
 import NewListingScreen from "../screens/NewListingScreen";
 import { useStateValue } from "../StateProvider";
 import AllCategoryScreen from "../screens/AllCategoryScreen";
-import HomeNavigator from './HomeNavigator';
 
 
 const Tab = createBottomTabNavigator();
@@ -30,7 +29,10 @@ const TabNavigator = () => {
           fontSize: 12,
         },
         style: {
-          height: 50,
+          height: 80,
+          backgroundColor: COLORS.white,
+          borderTopLeftRadius: 20,
+          borderTopRightRadius: 20
         },
       }}
     >
@@ -44,11 +46,12 @@ const TabNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Search"
+        name="Favourite"
         component={AllCategoryScreen}
+
         options={{
           tabBarIcon: ({ color }) => (
-            <FontAwesome5 name="search" size={20} color={color} />
+            <FontAwesome5 name="heart" size={20} color={color} />
           ),
         }}
       />
@@ -72,17 +75,17 @@ const TabNavigator = () => {
       />
 
       <Tab.Screen
-        name="Chat List"
+        name="Orders"
         component={ChatListScreen}
         options={{
           tabBarBadge: chat_badge,
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="comments" size={23} color={color} />
+            <FontAwesome name="file-video" size={23} color={color} />
           ),
         }}
       />
       <Tab.Screen
-        name="Account"
+        name="Profile"
         component={AccountScreen}
         options={{
           tabBarIcon: ({ color }) => (

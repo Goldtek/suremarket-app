@@ -4874,10 +4874,10 @@ react-native-detect-navbar-android@^0.3.0:
   resolved "https://registry.yarnpkg.com/react-native-detect-navbar-android/-/react-native-detect-navbar-android-0.3.0.tgz#ad8d2a50fa399cda1ceb0f3def0b74131cb053ec"
   integrity sha512-g2k8fYU4h2Ge7vXz8ECUUKoUoVwT+KLqgtwfD8Y7UkL0HHlO6wB0aeyVQOgJUCoSt3cme5YNwo1zTao53bz1aA==
 
-react-native-draggable-flatlist@^2.5.1:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/react-native-draggable-flatlist/-/react-native-draggable-flatlist-2.6.2.tgz#d1445fd52e75bc4f4ebbd832a8bc4525cebb8302"
-  integrity sha512-0IBS1lgw137FDaDLccUidHXYu/6PbnIO1R0IXYVfxtNOvhFLfJyGOY526vmO72Sf/ch9yayED4+DaQWGBOqNyw==
+react-native-draggable-flatlist@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-draggable-flatlist/-/react-native-draggable-flatlist-3.1.2.tgz#b66538007f645ccd851c729d4b8a8f7e07666d3f"
+  integrity sha512-cqBR+lZktTqHY/J7V0aq+TZNkuqeILxwZ5bBXKndokwH4qvZl7ifijM7LlfWhfhU1/pzjketTsX7P2zyojfAaQ==
 
 react-native-gesture-handler@~2.1.0:
   version "2.1.3"

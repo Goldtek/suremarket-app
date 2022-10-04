@@ -19,25 +19,15 @@ const NewListingButton = ({ onPress }) => {
           <View
             style={{
               alignItems: "center",
-              backgroundColor: "#ffbc8f",
-              borderRadius: 19,
-              height: 38,
+              backgroundColor: "#F16B59",
+              borderRadius: 30,
+              height: 60,
               justifyContent: "center",
-              width: 38,
+              width: 60,            
             }}
           >
-            <View
-              style={{
-                alignItems: "center",
-                backgroundColor: "#ff6600",
-                borderRadius: 13,
-                height: 26,
-                justifyContent: "center",
-                width: 26,
-              }}
-            >
-              <FontAwesome5 name="plus" size={15} color="#fff" />
-            </View>
+            <FontAwesome5 name="cart-plus" size={20} color="#fff" />
+            
           </View>
         </View>
       </TouchableWithoutFeedback>
@@ -65,11 +55,12 @@ const styles = StyleSheet.create({
 
   content: {
     alignItems: "center",
-    backgroundColor: "#ffe0cc",
-    borderRadius: 25,
-    height: 50,
+    backgroundColor: "#FBFBFB",
+    borderRadius: 40,
+    height: 90,
     justifyContent: "center",
-    width: 50,
+    width: 90,
+    marginBottom: 20
   },
 });
 

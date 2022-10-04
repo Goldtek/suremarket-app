@@ -522,6 +522,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingTop: 10,
     paddingBottom: ios ? 80 : 0,
+    backgroundColor: '#FBFBFB',
   },
   errorFieldWrap: {
     height: 15,
